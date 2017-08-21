@@ -1,0 +1,120 @@
+*{
+    margin:0;
+}
+body{
+    max-width: 1900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+}
+header{
+    background: radial-gradient(#05058A, #6AD0F6);
+    background-position: center center;
+    background-size: cover;
+    height:300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    order: 1;
+    color: #EFEC28;
+}
+header h1{
+    font-size: 2rem;
+}
+header h2{
+    font-size: 1rem;
+    padding: 5%;
+}
+
+/*
+------------------------------------------------------
+ links
+------------------------------------------------------
+*/
+ a:hover{
+    color: #EFEC28;
+    text-decoration: underline;
+}
+ a{
+    color: #05058A;
+    text-decoration: none ;
+}
+
+/*
+--------------------------------------------------------
+summary and preamble
+-------------------------------------------------------
+*/
+.preamble, .summary {
+    background-color: #DFEEF3;
+    padding: ;
+}
+/*
+--------------------------------------------------------
+main
+-------------------------------------------------------
+*/
+.main{
+    background-color: #51A9D2;
+}
+
+/*
+--------------------------------------------------------
+aside
+-------------------------------------------------------
+*/
+aside{
+    background-color: #3876AB;
+}
+/*
+==============================================================
+Layout
+==============================================================
+*/
+.page-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+ .main{
+     width: 58%;
+     padding: 1%;
+ }
+ .sidebar{
+
+     padding: 1%;
+
+ }
+ /*
+ =====================================================
+ aside
+ =====================================================
+ */
+ 
+.wrapper .design-archives{
+    order: -1;
+}
+
+/*
+===================================================
+intro
+===================================================
+*/
+.intro{
+    flex-wrap: nowrap;
+}
+header, .summary, .preamble{
+    width:100%;
+}
+.summary, .preamble > p, h3 {
+    box-sizing: border-box;
+    padding: 0 3%;
+}
+footer{
+    display: block;
+    width: 100%;
+}
